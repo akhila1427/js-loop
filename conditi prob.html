@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  ===============================
+  1.
+  <!-- using if else printing 1 to 12 months -->
+    
+    debugger;
+    var month=0;
+var month=prompt("enter month")
+if(month==1){
+    console.log("january")
+}
+else if(month==2){
+    console.log("february")
+}
+else if(month==3){
+    console.log("March")
+}
+else if(month==4){
+    console.log("April")
+}
+else if(month==5){
+    console.log("May")z
+}
+else if(month==6){
+    console.log("june")
+}
+else{console.log("not every month")}
+=============================================
+2.
+<!-- using switch printing 1 to 12 months -->
+
+var month=prompt("enter a month value");                                         
+    switch(month){
+      case "1":
+        console.log("january");
+        break;
+        case "2":
+        console.log("february");
+        break;
+        case "3":
+        console.log("march");
+        break;
+        case "4":
+        console.log("april");
+        break;
+        case "5":
+        console.log("may");
+        break;
+        case "6":
+        console.log("june");
+        break;
+        default:console.log("out of boundary");
+
+    }
+    <!-- or else you can write this using switch -->
+    var month=prompt("enter a month value");
+    switch(month){
+      case month==1:
+        console.log("january");
+        break;
+        case month==2:
+        console.log("february");
+        break;
+        case month==3:
+        console.log("march");
+        break;
+        case month==4:
+        console.log("april");
+        break;
+        case month==5:
+        console.log("may");
+        break;
+        case month==6:
+        console.log("june");
+        break;
+        default:console.log("out of boundary");
+    }
+
+============================================
+3.
+<!-- greatest of 3 numbers using if else -->
+var a=10;
+    b=20;
+    c=30;
+    if(a>=b&&a>=c){
+      console.log("a is greater");
+    }
+    else if(b>=a&&b>=c){
+      console.log("b is greater");
+    }
+    else if (c>=a&&c>=c){
+      console.log("c is greater");
+    }
+    else {
+      console.log("no one is greater");
+    }
+<!-- output
+c is greater -->
+==========================================================
+4.<!-- greatest of 3 numbers using switch -->
+var a=4;
+b=2;
+c=1;
+
+switch(true){
+    case a>=b&&a>=c:
+        console.log("a is greater");
+         break;
+         case b>=a&&b>=c:
+        console.log("b is greater");
+         break;
+         case c>=a&&c>=b:
+        console.log("c is greater");
+         break;
+         default:console.log("out of boundary");
+}
+<!-- output
+a is greater -->
+============================================================
+5.<!-- smallest of 3 numbers using if else -->
+
+var a=10;
+    b=20;
+    c=30;
+    if(a<=b&&a<=c){
+      console.log("a is smaller");
+    }
+    else if(b<=a&&b<=c){
+      console.log("b is smaller");
+    }
+    else if (c<=a&&c<=c){
+      console.log("c is smaller");
+    }
+    else {
+      console.log("no one is smaller");
+    }
+    <!-- output
+a is smaller -->
+===================================================================
+6.<!-- smallest of 3 numbers using switch -->
+var  a=10;
+    b=20;
+    c=30;
+
+switch(true){
+    case a<=b&&a<=c:
+        console.log("a is smaller");
+         break;
+         case b<=a&&b<=c:
+        console.log("b is smaller");
+         break;
+         case c<=a&&c<=b:
+        console.log("c is smaller");
+         break;
+         default:console.log("out of boundary");
+}
+<!-- output
+a is smaller -->
+=================================================
+7.
+<!-- print even number using if else -->
+var a=10;
+    if(a%2==0){
+      console.log("it is an even number");
+    }
+else{ console.log("it is an odd number");
+}
+<!-- output
+it is an even number -->
+======================================
+8.
+<!-- print even number using if switch -->
+var a=16;
+    switch(a%2==0){
+      case 1:
+        console.log("it is an even number");
+        break;
+        case 2:
+        console.log("it is an odd number");
+        break;
+        default: 
+        console.log("it is not an even and odd number");
+    }
+<!-- output
+it is not an even and odd number -->
+========================================================
+9.
+!-- print odd number using if else -->
+var a=11;
+    if(a%2==0){
+      console.log("it is an even number");
+    }
+else{ console.log("it is an odd number");
+}
+<!-- output
+it is an odd  number -->
+<!-- or -->
+var a=prompt("enter number");
+
+   if(a%2==0){
+    console.log("even");
+   }
+   else{ console.log("odd")}
+
+====================================
+<!-- print even number using if switch -->
+10.
+var a=16;
+    switch(a%2){
+      case 0:
+        console.log("it is an even number");
+        break;
+        case 1:
+        console.log("it is an odd number");
+        break;
+        default: 
+        console.log("it is not an even and odd number");
+    }
+
+<!-- output
+it is an even number -->
+
+<!-- or -->
+var a=prompt("entetr")
+    switch(a%2){
+      case 0:
+        console.log("it is an even number");
+        break;
+        case 1:
+        console.log("it is an odd number");
+        break;
+        default: 
+        console.log("it is not an even and odd number");
+    }
+=======================================
+
+
+</body>
+</html>
